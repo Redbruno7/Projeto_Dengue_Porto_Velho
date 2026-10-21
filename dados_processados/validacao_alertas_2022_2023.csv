@@ -1,0 +1,105 @@
+ano_semana,semana,quantidade,media_historica,limite_alerta,possivel_alerta,possivel_anomalia,semana_pico,casos_no_pico,distancia_do_pico,momento_alerta
+2022,1,22,9.0,18.0,True,True,12,57,-11,Antes do pico
+2022,2,20,10.67,21.33,False,True,12,57,-10,Antes do pico
+2022,3,12,13.0,26.0,False,False,12,57,-9,Sem alerta
+2022,4,6,9.33,18.67,False,False,12,57,-8,Sem alerta
+2022,5,25,11.83,23.67,True,True,12,57,-7,Antes do pico
+2022,6,36,15.67,31.33,True,True,12,57,-6,Antes do pico
+2022,7,31,13.33,26.67,True,True,12,57,-5,Antes do pico
+2022,8,27,11.0,22.0,True,True,12,57,-4,Antes do pico
+2022,9,41,10.5,21.0,True,True,12,57,-3,Antes do pico
+2022,10,44,7.67,15.33,True,True,12,57,-2,Antes do pico
+2022,11,51,8.83,17.67,True,True,12,57,-1,Antes do pico
+2022,12,57,7.33,14.67,True,True,12,57,0,Na semana do pico
+2022,13,55,8.0,16.0,True,True,12,57,1,Depois do pico
+2022,14,39,7.5,15.0,True,True,12,57,2,Depois do pico
+2022,15,44,6.83,13.67,True,True,12,57,3,Depois do pico
+2022,16,43,4.5,9.5,True,True,12,57,4,Depois do pico
+2022,17,39,2.67,7.67,True,True,12,57,5,Depois do pico
+2022,18,41,3.83,8.83,True,True,12,57,6,Depois do pico
+2022,19,33,3.17,8.17,True,True,12,57,7,Depois do pico
+2022,20,30,3.17,8.17,True,True,12,57,8,Depois do pico
+2022,21,35,2.33,7.33,True,True,12,57,9,Depois do pico
+2022,22,29,1.17,6.17,True,True,12,57,10,Depois do pico
+2022,23,35,2.33,7.33,True,True,12,57,11,Depois do pico
+2022,24,17,2.5,7.5,True,True,12,57,12,Depois do pico
+2022,25,22,2.67,7.67,True,True,12,57,13,Depois do pico
+2022,26,22,1.83,6.83,True,True,12,57,14,Depois do pico
+2022,27,27,2.5,7.5,True,True,12,57,15,Depois do pico
+2022,28,25,3.17,8.17,True,True,12,57,16,Depois do pico
+2022,29,17,3.0,8.0,True,True,12,57,17,Depois do pico
+2022,30,14,3.17,8.17,True,True,12,57,18,Depois do pico
+2022,31,15,1.0,6.0,True,True,12,57,19,Depois do pico
+2022,32,16,1.67,6.67,True,False,12,57,20,Depois do pico
+2022,33,10,1.0,6.0,True,False,12,57,21,Depois do pico
+2022,34,6,1.17,6.17,False,False,12,57,22,Sem alerta
+2022,35,10,0.67,5.67,True,False,12,57,23,Depois do pico
+2022,36,1,0.83,5.83,False,False,12,57,24,Sem alerta
+2022,37,8,0.5,5.5,True,False,12,57,25,Depois do pico
+2022,38,8,1.33,6.33,True,False,12,57,26,Depois do pico
+2022,39,5,0.83,5.83,False,False,12,57,27,Sem alerta
+2022,40,1,1.0,6.0,False,False,12,57,28,Sem alerta
+2022,41,2,0.67,5.67,False,False,12,57,29,Sem alerta
+2022,42,3,2.67,7.67,False,False,12,57,30,Sem alerta
+2022,43,3,2.67,7.67,False,False,12,57,31,Sem alerta
+2022,44,6,2.0,7.0,False,False,12,57,32,Sem alerta
+2022,45,10,2.5,7.5,True,False,12,57,33,Depois do pico
+2022,46,11,2.33,7.33,True,False,12,57,34,Depois do pico
+2022,47,21,4.0,9.0,True,True,12,57,35,Depois do pico
+2022,48,15,2.83,7.83,True,False,12,57,36,Depois do pico
+2022,49,13,3.33,8.33,True,False,12,57,37,Depois do pico
+2022,50,14,5.67,11.33,True,False,12,57,38,Depois do pico
+2022,51,16,4.33,9.33,True,False,12,57,39,Depois do pico
+2022,52,9,,,False,False,12,57,40,Sem alerta
+2023,1,19,10.86,21.71,False,False,9,44,-8,Sem alerta
+2023,2,25,12.0,24.0,True,False,9,44,-7,Antes do pico
+2023,3,34,12.86,25.71,True,True,9,44,-6,Antes do pico
+2023,4,34,8.86,17.71,True,True,9,44,-5,Antes do pico
+2023,5,39,13.71,27.43,True,True,9,44,-4,Antes do pico
+2023,6,39,18.57,37.14,True,True,9,44,-3,Antes do pico
+2023,7,29,15.86,31.71,False,False,9,44,-2,Sem alerta
+2023,8,36,13.29,26.57,True,False,9,44,-1,Antes do pico
+2023,9,44,14.86,29.71,True,True,9,44,0,Na semana do pico
+2023,10,43,12.86,25.71,True,True,9,44,1,Depois do pico
+2023,11,32,14.86,29.71,True,True,9,44,2,Depois do pico
+2023,12,34,14.43,28.86,True,False,9,44,3,Depois do pico
+2023,13,25,14.71,29.43,False,True,9,44,4,Depois do pico
+2023,14,26,12.0,24.0,True,False,9,44,5,Depois do pico
+2023,15,26,12.14,24.29,True,False,9,44,6,Depois do pico
+2023,16,22,10.0,20.0,True,False,9,44,7,Depois do pico
+2023,17,20,7.86,15.71,True,False,9,44,8,Depois do pico
+2023,18,23,9.14,18.29,True,False,9,44,9,Depois do pico
+2023,19,15,7.43,14.86,True,False,9,44,10,Depois do pico
+2023,20,15,7.0,14.0,True,False,9,44,11,Depois do pico
+2023,21,21,7.0,14.0,True,False,9,44,12,Depois do pico
+2023,22,15,5.14,10.29,True,False,9,44,13,Depois do pico
+2023,23,14,7.0,14.0,False,False,9,44,14,Sem alerta
+2023,24,8,4.57,9.57,False,False,9,44,15,Sem alerta
+2023,25,12,5.43,10.86,True,False,9,44,16,Depois do pico
+2023,26,13,4.71,9.71,True,False,9,44,17,Depois do pico
+2023,27,13,6.0,12.0,True,False,9,44,18,Depois do pico
+2023,28,14,6.29,12.57,True,False,9,44,19,Depois do pico
+2023,29,16,5.0,10.0,True,False,9,44,20,Depois do pico
+2023,30,7,4.71,9.71,False,False,9,44,21,Sem alerta
+2023,31,4,3.0,8.0,False,False,9,44,22,Sem alerta
+2023,32,8,3.71,8.71,False,False,9,44,23,Sem alerta
+2023,33,6,2.29,7.29,False,False,9,44,24,Sem alerta
+2023,34,4,1.86,6.86,False,False,9,44,25,Sem alerta
+2023,35,3,2.0,7.0,False,False,9,44,26,Sem alerta
+2023,36,2,0.86,5.86,False,False,9,44,27,Sem alerta
+2023,37,5,1.57,6.57,False,False,9,44,28,Sem alerta
+2023,38,2,2.29,7.29,False,False,9,44,29,Sem alerta
+2023,39,4,1.43,6.43,False,False,9,44,30,Sem alerta
+2023,40,4,1.0,6.0,False,False,9,44,31,Sem alerta
+2023,41,8,0.86,5.86,True,False,9,44,32,Depois do pico
+2023,42,9,2.71,7.71,True,False,9,44,33,Depois do pico
+2023,43,8,2.71,7.71,True,False,9,44,34,Depois do pico
+2023,44,5,2.57,7.57,False,False,9,44,35,Sem alerta
+2023,45,9,3.57,8.57,True,False,9,44,36,Depois do pico
+2023,46,5,3.57,8.57,False,False,9,44,37,Sem alerta
+2023,47,2,6.43,12.86,False,False,9,44,38,Sem alerta
+2023,48,9,4.57,9.57,False,False,9,44,39,Sem alerta
+2023,49,7,4.71,9.71,False,False,9,44,40,Sem alerta
+2023,50,12,6.86,13.71,False,False,9,44,41,Sem alerta
+2023,51,8,6.0,12.0,False,False,9,44,42,Sem alerta
+2023,52,7,5.2,10.4,False,False,9,44,43,Sem alerta
