@@ -26,11 +26,11 @@ Após a coleta e a filtragem, a base consolidada apresentou 4.082 registros para
 
 ### 3.2 Preparação dos dados
 
-Após a coleta, os registros passaram por uma etapa de preparação utilizando a biblioteca Pandas, em Python. Inicialmente, foram removidas as duplicatas exatas identificadas na base, totalizando 1.689 registros duplicados. Também foram considerados os critérios de seleção aplicados durante a coleta para manter os registros pertinentes ao estudo.
+Após a coleta, os registros passaram por uma etapa de filtragem e preparação utilizando Python e a biblioteca Pandas. Foram selecionados os registros de residentes de Porto Velho que atendiam aos critérios de classificação final definidos no script de coleta. O campo `NDUPLIC_N` também foi verificado, mas não resultou na exclusão de registros nos arquivos analisados. Após a consolidação dos dados, foram removidas 1.689 duplicatas exatas, ou seja, linhas que apresentavam valores idênticos em todas as colunas. Ao final desse processo, a base consolidada ficou com 4.082 registros.
 
 Para construir a base mensal, a coluna `DT_SIN_PRI`, correspondente à data de início dos sintomas, foi convertida para o formato de data. Os registros que não apresentaram uma data válida foram desconsiderados nessa etapa. Em seguida, os casos foram agrupados por mês, contando-se os registros de cada período. Os meses sem registros entre o início e o fim da série foram incluídos com quantidade igual a zero, garantindo a continuidade da sequência mensal.
 
-Posteriormente, os meses foram classificados em três níveis de risco, de acordo com a quantidade de casos registrados. Os limites utilizados foram definidos a partir da distribuição histórica mensal do conjunto analisado: risco baixo para até 9 casos, risco médio para 10 a 30 casos e risco alto para mais de 30 casos. Esses limites têm finalidade didática e foram adotados para distribuir os registros entre as classes do problema de classificação, não correspondendo a critérios oficiais de alerta epidemiológico.
+Para a classificação mensal, foram adotados limites didáticos de quantidade de casos: risco baixo para até 9 casos, risco médio para 10 a 30 casos e risco alto para mais de 30 casos. Esses critérios foram utilizados para estabelecer as classes do problema de classificação e não correspondem a níveis oficiais de alerta epidemiológico.
 
 A base mensal resultante contém 120 meses, abrangendo o período de janeiro de 2016 a dezembro de 2025. Essa estrutura foi utilizada na análise exploratória e no treinamento dos modelos de classificação.
 
@@ -82,11 +82,25 @@ Descrever o material de divulgação produzido, os meios utilizados para compart
 
 ## 6. Conclusão
 
-Retomar o objetivo do projeto, os principais resultados e as limitações da abordagem.
+O projeto teve como objetivo desenvolver e avaliar modelos de Inteligência Artificial para classificar o nível mensal de risco de dengue em Porto Velho, Rondônia, utilizando dados históricos do SINAN referentes ao período de 2016 a 2025.
 
-## 7. Referências
+Foram aplicadas etapas de coleta, preparação e análise exploratória dos dados, seguidas pelo treinamento e pela comparação de três algoritmos de classificação: Árvore de Decisão, KNN e SVM. Entre os modelos avaliados, o SVM apresentou o melhor desempenho, com acurácia de 61,11%, embora os resultados também tenham evidenciado dificuldades na distinção entre algumas classes de risco.
 
-Registrar as fontes dos dados e as referências técnicas utilizadas no trabalho.
+Conclui-se que o uso de técnicas de Inteligência Artificial permite explorar dados históricos e comparar diferentes abordagens de classificação para o estudo da dengue. Entretanto, o desempenho obtido e os critérios didáticos utilizados para definir as classes limitam a aplicação prática dos modelos. Portanto, os resultados devem ser considerados exploratórios, não constituindo um sistema validado de previsão ou alerta de surtos.
+
+A realização do projeto permitiu aplicar conceitos de aprendizagem de máquina, análise de dados e avaliação de modelos a um problema de saúde pública, demonstrando possibilidades e limitações dessas técnicas no contexto estudado.
+
+## 7. REFERÊNCIAS
+
+BRASIL. Ministério da Saúde. **Dados sobre agravos de notificações**. Brasília, DF: Ministério da Saúde. Disponível em: https://www.gov.br/saude/pt-br/acesso-a-informacao/sic/dados-em-transparencia-ativa/svsa/agravos-de-notificacoes/agravos-de-notificacoes. Acesso em: 21 out. 2026.
+
+BRASIL. Ministério da Saúde. **Sistema de Informação de Agravos de Notificação (SINAN)**. Brasília, DF: Ministério da Saúde. Disponível em: https://www.gov.br/saude/pt-br/composicao/svsa/sistemas-de-informacao/sinan/sinan. Acesso em: 21 out. 2026.
+
+MCKINNEY, Wes et al. **pandas documentation**. Disponível em: https://pandas.pydata.org/docs/. Acesso em: 21 out. 2026.
+
+MATPLOTLIB DEVELOPMENT TEAM. **Matplotlib documentation**. Disponível em: https://matplotlib.org/stable/. Acesso em: 21 out. 2026.
+
+SCIKIT-LEARN DEVELOPERS. **Scikit-learn: machine learning in Python**. Disponível em: https://scikit-learn.org/stable/. Acesso em: 21 out. 2026.
 
 ## 8. Apêndices e evidências
 
