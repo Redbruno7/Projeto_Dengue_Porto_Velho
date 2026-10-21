@@ -1,5 +1,35 @@
+
+# Dados brutos e ambiente Python
 dados_brutos/*.zip
 .venv/
 __pycache__/
 *.py[cod]
 .vscode/
+
+# Análises complementares fora do escopo principal
+analises_complementares/
+
+# Resultados de análises semanais e detecção de anomalias
+dados_processados/alertas_*.csv
+dados_processados/analise_crescimento.csv
+dados_processados/anomalias_*.csv
+dados_processados/auditoria_semanas.csv
+dados_processados/casos_por_semana.csv
+dados_processados/cobertura_semanal.csv
+dados_processados/comparacao_historica_semanal.csv
+dados_processados/comparacao_temporal_estatistico.csv
+dados_processados/dados_modelo_anomalias.csv
+dados_processados/isolation_forest_temporal.csv
+dados_processados/resultado_isolation_forest.csv
+dados_processados/resumo_alertas_por_ano.csv
+dados_processados/resumo_resultados.csv
+dados_processados/semanas_*.csv
+dados_processados/simulacao_retrospectiva.csv
+dados_processados/top_10_semanas.csv
+dados_processados/validacao_alertas_2022_2023.csv
+
+# Gráficos complementares
+graficos/alertas_*.png
+graficos/casos_por_ano.png
+graficos/casos_por_semana.png
+graficos/comparacao_*.png
