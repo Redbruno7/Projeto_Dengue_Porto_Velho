@@ -22,7 +22,7 @@ Os dados utilizados neste projeto foram obtidos a partir dos arquivos de notific
 
 Para delimitar o estudo ao município de Porto Velho, em Rondônia, foi aplicado um filtro utilizando o código municipal 110020 e o código da unidade federativa de Rondônia (11). Os arquivos foram processados por meio de um script desenvolvido em Python, que reuniu os registros selecionados em uma única base de dados, facilitando as etapas posteriores de preparação e análise.
 
-Após a coleta e a filtragem, a base consolidada apresentou 4.082 registros para processamento. Esses dados constituíram a fonte inicial para a organização dos casos por mês e para a construção da base utilizada na classificação dos níveis de risco.
+Após a coleta e a filtragem dos registros por município, os dados selecionados foram reunidos em uma base única. Em seguida, foi realizada a remoção de duplicatas exatas e a preparação dos dados para análise mensal, resultando em uma base consolidada com 4.082 registros.
 
 ### 3.2 Preparação dos dados
 
@@ -76,9 +76,15 @@ O SVM obteve sete acertos na classe de risco baixo, seis na classe de risco méd
 
 A análise demonstra que, embora o SVM tenha alcançado a maior acurácia geral, ainda existem confusões relevantes entre as categorias. Esses resultados reforçam a necessidade de interpretar as métricas em conjunto, pois uma única medida de desempenho não representa todas as dificuldades dos modelos.
 
-## 5. Atividade de extensão
+## 5. ATIVIDADE DE EXTENSÃO
 
-Descrever o material de divulgação produzido, os meios utilizados para compartilhá-lo, o público alcançado e as evidências coletadas.
+Como atividade de extensão, foi elaborado um cartaz digital com o título “Você sabia que...?”, com o objetivo de apresentar à comunidade informações sobre a utilização da Inteligência Artificial na análise de dados históricos de dengue em Porto Velho, Rondônia. O material abordou os dados utilizados no projeto, os algoritmos de classificação avaliados e os principais resultados obtidos, destacando também as limitações do estudo.
+
+O cartaz foi divulgado em dois grupos do WhatsApp: um grupo de estudos e um grupo de amigos. A divulgação buscou compartilhar o conhecimento desenvolvido durante o projeto em espaços de comunicação cotidiana, utilizando uma linguagem acessível ao público.
+
+Para obter impressões sobre o material, foram coletadas respostas de pessoas que participaram da avaliação. Embora a participação tenha sido pequena, todas as respostas recebidas foram positivas em relação às perguntas apresentadas. Esse retorno sugere que o conteúdo foi compreendido e considerado relevante pelos participantes, embora a quantidade limitada de respostas não permita generalizar essa percepção para um público mais amplo.
+
+As evidências da atividade, incluindo imagens do cartaz e capturas de tela da divulgação e das respostas recebidas, foram organizadas na pasta `relatorio` do projeto. Dessa forma, a atividade permitiu compartilhar os resultados do trabalho e apresentar à comunidade uma aplicação acadêmica da Inteligência Artificial relacionada a um problema de saúde pública.
 
 ## 6. Conclusão
 
@@ -92,16 +98,18 @@ A realização do projeto permitiu aplicar conceitos de aprendizagem de máquina
 
 ## 7. REFERÊNCIAS
 
-BRASIL. Ministério da Saúde. **Dados sobre agravos de notificações**. Brasília, DF: Ministério da Saúde. Disponível em: https://www.gov.br/saude/pt-br/acesso-a-informacao/sic/dados-em-transparencia-ativa/svsa/agravos-de-notificacoes/agravos-de-notificacoes. Acesso em: 21 out. 2026.
+BRASIL. Ministério da Saúde. **Sinan/Dengue**. Portal de Dados Abertos do SUS. Disponível em: https://dadosabertos.saude.gov.br/dataset/arboviroses-dengue. Acesso em: 22 out. 2026.
 
-BRASIL. Ministério da Saúde. **Sistema de Informação de Agravos de Notificação (SINAN)**. Brasília, DF: Ministério da Saúde. Disponível em: https://www.gov.br/saude/pt-br/composicao/svsa/sistemas-de-informacao/sinan/sinan. Acesso em: 21 out. 2026.
+BRASIL. Ministério da Saúde. **Dados sobre agravos de notificações**. Brasília, DF: Ministério da Saúde. Disponível em: https://www.gov.br/saude/pt-br/acesso-a-informacao/sic/dados-em-transparencia-ativa/svsa/agravos-de-notificacoes/agravos-de-notificacoes. Acesso em: 22 out. 2026.
 
-MCKINNEY, Wes et al. **pandas documentation**. Disponível em: https://pandas.pydata.org/docs/. Acesso em: 21 out. 2026.
+MCKINNEY, Wes et al. **pandas documentation**. Disponível em: https://pandas.pydata.org/docs/. Acesso em: 22 out. 2026.
 
-MATPLOTLIB DEVELOPMENT TEAM. **Matplotlib documentation**. Disponível em: https://matplotlib.org/stable/. Acesso em: 21 out. 2026.
+MATPLOTLIB DEVELOPMENT TEAM. **Matplotlib documentation**. Disponível em: https://matplotlib.org/stable/. Acesso em: 22 out. 2026.
 
-SCIKIT-LEARN DEVELOPERS. **Scikit-learn: machine learning in Python**. Disponível em: https://scikit-learn.org/stable/. Acesso em: 21 out. 2026.
+SCIKIT-LEARN DEVELOPERS. **Scikit-learn: machine learning in Python**. Disponível em: https://scikit-learn.org/stable/. Acesso em: 22 out. 2026.
 
-## 8. Apêndices e evidências
+## 8. APÊNDICES E EVIDÊNCIAS
 
-Incluir capturas de tela, registros da divulgação e demais evidências pertinentes à atividade de extensão.
+Nesta seção estão reunidas as evidências da atividade de extensão realizada durante o projeto, incluindo o cartaz digital “Você sabia que...?”, as capturas de tela da divulgação do material em dois grupos do WhatsApp e os registros das respostas recebidas no questionário de avaliação.
+
+Esses materiais documentam a divulgação dos resultados do projeto e o retorno obtido dos participantes. As evidências digitais correspondentes estão organizadas na pasta `relatorio` do projeto.
